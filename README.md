@@ -1,5 +1,5 @@
-# fuel_oil_counter
-fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
+# Fuel oil counter
+Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
 Calculation of the consumption based on the set nozzle liter consumption.
 
 
@@ -10,7 +10,7 @@ communication protocol: Modbus RTU
 communication address: 1 ~ 247 (Standard 1)
 
 ## Modbus Protocol
-### function codes
+### Function codes
         
 |command register| function                  |
 |----------------|---------------------------|
@@ -19,26 +19,30 @@ communication address: 1 ~ 247 (Standard 1)
 | 0x06           | write a single register   |
 | 0x10           | write more keep registers |
 
-### registers
+### Registers
 
-|regsiter type   | register address | gegister contents   | bytes | Done | Register - ID |
-|----------------|------------------|---------------------|-------|------|---------------|
-| input register | 0x0001           | ml summary Hi Byte  |   2   |   x  | 1             | 
-| input register | 0x0002           | ml summary Low Byte |   2   |   x  | 2             | 
-| input register | 0x0003           | s summary Hi Byte   |   2   |   x  | 3             | 
-| input register | 0x0004           | s summary Low Byte  |   2   |   x  | 4             | 
-| input register | 0x0005           | ms time   Hi Byte   |   2   |   x  | 5             | 
-| input register | 0x0006           | ms time   Low Byte  |   2   |   x  | 6             |
-| input register | 0x0007           | l summary           |   2   |   x  | 7 (EEPROM)    |
-| input register | 0x0008           | h active summary    |   2   |   x  | 8 (EEPROM)    |
-| debug register | 0x0009           | DIP value           |   2   |   x  | 9             |
-| debug register | 0x0010           | gram per hour       |   2   |   x  | 10            |
-| debug register | 0x0011           | ml per hour         |   2   |   x  | 11            |
-| debug register | 0x0012           | fw version          |   2   |   x  | 12            |
-| keep register  | 0x0013           | device address      |   2   |   x  | 13 optional   |
-| keep register  | 0x0014           | baud rate           |   2   |   x  | 14 optional   |
-| keep register  | 0x0015           | reset summary       |   2   |   x  | 15time & Date |
+|regsiter type   | register address | gegister contents   | bytes | register - ID  |
+|----------------|------------------|---------------------|-------|----------------|
+| input register | 0x0001           | ml summary Hi Byte  |   2   |  1             | 
+| input register | 0x0002           | ml summary Low Byte |   2   |  2             | 
+| input register | 0x0003           | s summary Hi Byte   |   2   |  3             | 
+| input register | 0x0004           | s summary Low Byte  |   2   |  4             | 
+| input register | 0x0005           | ms time   Hi Byte   |   2   |  5             | 
+| input register | 0x0006           | ms time   Low Byte  |   2   |  6             |
+| input register | 0x0007           | l summary           |   2   |  7 (EEPROM)    |
+| input register | 0x0008           | h active summary    |   2   |  8 (EEPROM)    |
+| debug register | 0x0009           | DIP value           |   2   |  9             |
+| debug register | 0x0010           | gram per hour       |   2   |  10            |
+| debug register | 0x0011           | ml per hour         |   2   |  11            |
+| debug register | 0x0012           | fw version          |   2   |  12            |
+| keep register  | 0x0013           | device address      |   2   |  13 optional   |
+| keep register  | 0x0014           | baud rate           |   2   |  14 optional   |
+| keep register  | 0x0015           | reset summary       |   2   |  15time & Date |
 
 baudrate = 0 =>  9600 baud
            1 => 14400 baud
            2 => 19200 baud
+
+## OpenHab example
+
+![open_hab_example](gfx/open_hab_example.png)
