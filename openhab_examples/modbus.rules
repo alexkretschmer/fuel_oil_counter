@@ -1,0 +1,37 @@
+
+
+rule "Oel Verbrauch"
+ 
+when
+//	Time cron "0 0/1 * * * ?" //every 1 Minute for DEBUG !!!
+	Time cron"0 0/5 * * * ?" //every 5 Minutes
+then
+	val Number minimum =  MODOil.minimumSince(now.minusHours(24)).state as Number
+	val Number maximum = MODOil.maximumSince(now.minusHours(24)).state as Number
+	//val Number daily = MODOil.deltaSince(now.withTimeAtStartOfDay).state as Number
+	val Number daily = MODOil.deltaSince(ZonedDateTime.now().with(LocalTime.MIDNIGHT)) as Number
+	
+
+	val Number current = MODOil.state as Number
+	//logInfo("calc OiL", "min Oil: " + minimum)
+	//logInfo("calc Oil", "max Oil: " + maximum)
+	val day = maximum-minimum
+	//convertion to liter
+	day = day/1000 
+	daily = daily/1000 
+
+	current = current/1000
+	logInfo("calc Oil", "last day Oil: " + day)
+	logInfo("calc Oil", "   daily Oil: " + daily)
+	logInfo("calc Oil", " summary Oil: " + current)
+		
+	OilDay.
+	postUpdate(day)
+	OilDaily.
+	postUpdate(daily)
+	Oil.
+	postUpdate(current)
+
+end
+
+

@@ -14,6 +14,8 @@ communication address: 1 ~ 247 (Standard 1)
 
 ![open_hab_example](gfx/open_hab_example.png)
 
+openhab examples scripts:[openhab examples](openhab_examples/reame.md.txt)
+
 ## programming table SW1
 
 The factor for the calculation of the heating oil is set with the dip switch SW1.

@@ -1,0 +1,5 @@
+Number MODOil "oil [%d ml]" {channel="modbus:data:slavex3:slave3InputRegister:slave3Oilml:number"}
+Number MODOilTime "operating time oel heating [%d s]" {channel="modbus:data:slavex3:slave3InputRegister:slave3OilTime:number"} 
+Number Oil "Ölverbrauch gesamt [%.3f l]" (Oel)
+Number OilDay "Ölverbrauch letzten 24 Stunden [%.3f l]" (Oel)
+Number OilDaily "Ölverbrauch diesen Tag 24 Stunden [%.3f l]" (Oel)
