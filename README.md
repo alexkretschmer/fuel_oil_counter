@@ -14,7 +14,7 @@ communication address: 1 ~ 247 (Standard 1)
 
 ![open_hab_example](gfx/open_hab_example.png)
 
-openhab examples scripts:[openhab examples](openhab_examples/reame.md.txt)
+openhab examples scripts:[openhab examples](openhab_examples/reame.md)
 
 ## programming table SW1
 
