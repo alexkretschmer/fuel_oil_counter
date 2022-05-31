@@ -2,6 +2,8 @@
 Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
 Calculation of the consumption based on the set nozzle liter consumption.
 
+![oil counter prototyp](gfx/oil_counter_prototyp.jpg)
+
 
 ## Parameter
 operating voltage: 5V
