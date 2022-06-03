@@ -1,0 +1,4 @@
+# ignore ALL backup layout files
+
+*.b#*
+*.s#*
