@@ -4,6 +4,8 @@ Calculation of the consumption based on the set nozzle liter consumption.
 
 ![oil counter prototyp](gfx/oil_counter_prototyp.jpg)
 
+## Arduino libarys
+please add EEPROM and ModbusRtu Libary in the Arduino IDE
 
 ## Parameter
 operating voltage: 5V
