@@ -1,0 +1,16 @@
+register type,register address,register contents,bytes,register - ID
+input register,0x0001,ml summary Hi Byte,2,1
+input register,0x0002,ml summary Low Byte,2,2
+input register,0x0003,s summary Hi Byte,2,3
+input register,0x0004,s summary Low Byte,2,4
+input register,0x0005,ms time Hi Byte,2,5
+input register,0x0006,ms time Low Byte,2,6
+input register,0x0007,l summary,2,7 (EEPROM)
+input register,0x0008,h active summary,2,8 (EEPROM)
+debug register,0x0009,DIP value,2,9
+debug register,0x0010,gram per hour,2,10
+debug register,0x0011,ml per hour,2,11
+debug register,0x0012,fw version,2,12
+keep register,0x0013,device address,2,13 (EEPROM)
+keep register,0x0014,baud rate,2,14 (EEPROM)
+keep register,0x0015,reset summary,2,15

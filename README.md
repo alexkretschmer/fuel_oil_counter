@@ -2,7 +2,7 @@
 Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
 Calculation of the consumption based on the set nozzle liter consumption.
 
-![oil counter prototyp](gfx/oil_counter_prototyp.jpg)
+![oil counter prototyp](doc/source/gfx/oil_counter_prototyp.jpg)
 
 ## Arduino libarys
 please add EEPROM and ModbusRtu Libary in the Arduino IDE
@@ -16,7 +16,7 @@ communication address: 1 ~ 247 (Standard 1)
 
 ## OpenHab example
 
-![open_hab_example](gfx/open_hab_example.png)
+![open_hab_example](doc/source/gfx/open_hab_example.png)
 
 openhab examples scripts:[openhab examples](openhab_examples/readme.md)
 

@@ -1,0 +1,5 @@
+command register,function
+0x03,read keep register
+0x04,read input register
+0x06,write a single register
+0x10,write more keep registers
