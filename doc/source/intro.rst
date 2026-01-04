@@ -1,11 +1,6 @@
 Project: Digital Heating Oil Counter
 ====================================
 
-.. figure:: /gfx/fuel_oil_counter.png
-   :alt: Alternativtext für das Bild
-   :figwidth: 80%
-   :align: center
-
 Welcome to the official documentation of the Heating Oil Counter project.
 
 This project focuses on the development and construction of a precise, DIY-based measuring system to monitor heating oil consumption. In an era of rising energy costs and the growing need for household transparency, this system provides a cost-effective solution to digitally track current fuel levels and daily consumption.
