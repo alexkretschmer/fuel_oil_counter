@@ -5,6 +5,8 @@ Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil
 Calculation of the consumption based on the set nozzle liter consumption.
 
 
+[![Buy Me A Coffee](cdn.buymeacoffee.com)](https://www.buymeacoffee.com/alexkretschmer)
+
 [<img src="img.buymeacoffee.com" alt="Buy me a coffee" width="200"/>](https://www.buymeacoffee.com/alexkretschmer)
 
 
