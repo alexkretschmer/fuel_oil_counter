@@ -2,6 +2,10 @@
 Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
 Calculation of the consumption based on the set nozzle liter consumption.
 
+Full documentation
+[Documentation Fuel oil counter](https://alexkretschmer.github.io/fuel_oil_counter/)
+
+
 ![oil counter prototyp](doc/source/gfx/oil_counter_prototyp.jpg)
 
 ## Arduino libarys
