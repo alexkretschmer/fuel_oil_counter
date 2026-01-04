@@ -1,5 +1,5 @@
-fuel oil counter documentation
-==============================
+Fuel Oil Counter 
+=================
 
 .. figure:: /gfx/fuel_oil_counter.png
    :alt: Alternativtext für das Bild

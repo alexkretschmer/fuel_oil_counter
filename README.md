@@ -1,6 +1,12 @@
 # Fuel oil counter
+
+![open_hab_example](doc/source/gfx/fuel_oil_counter.png)
 Fuel oil counter with Modbus (operating hours counters to calculate the fuel oil consumption).
 Calculation of the consumption based on the set nozzle liter consumption.
+
+
+[<img src="img.buymeacoffee.com" alt="Buy me a coffee" width="200"/>](https://www.buymeacoffee.com/alexkretschmer)
+
 
 Full documentation
 [Documentation Fuel oil counter](https://alexkretschmer.github.io/fuel_oil_counter/)
