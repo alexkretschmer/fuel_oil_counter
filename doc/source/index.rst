@@ -17,3 +17,10 @@ documentation for details.
 
    intro
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Technical Documentation:
+
+   hardware/index
+   firmware/index
+
