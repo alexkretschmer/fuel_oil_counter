@@ -1,0 +1,8 @@
+Bridge modbus:serial:slavex3 [port="/dev/ttyS0", id=3, baud=9600, dataBits=8, parity="none", stopBits="1.0", encoding="rtu"]
+{ 
+ Bridge poller slave3InputRegister [ start=1, length=4, refresh=10000, type="input" ] 
+	{
+	Thing data slave3Oilml [ readStart="1", readValueType="int32"]
+	Thing data slave3OilTime [ readStart="3", readValueType="int32"]
+	}
+}

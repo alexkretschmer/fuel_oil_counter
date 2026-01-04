@@ -3,6 +3,14 @@ Firmware
 
 Please add EEPROM and ModbusRtu Libary in the Arduino IDE.
 
+
+prototyp firmware:
+-------------------
+
+ :download:`fuel_oil_counter zip-file download </download/fuel_oil_counter.zip>`.
+
+
+
 parameter
 -------------
 operating voltage: 5V output signal: RS-485 communication protocol: Modbus RTU communication address: 1 ~ 247 (Standard 1)

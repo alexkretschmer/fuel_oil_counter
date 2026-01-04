@@ -23,4 +23,5 @@ documentation for details.
 
    hardware/index
    firmware/index
+   example/index
 

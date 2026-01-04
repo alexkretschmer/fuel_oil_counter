@@ -80,5 +80,3 @@ then
 	Oil.
 	postUpdate(current)
 end
-
-
