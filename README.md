@@ -9,10 +9,6 @@ Calculation of the consumption based on the set nozzle liter consumption.
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
 </a>
 
-[![Buy Me A Coffee](cdn.buymeacoffee.com)](https://www.buymeacoffee.com/alexkretschmer)
-
-[<img src="img.buymeacoffee.com" alt="Buy me a coffee" width="200"/>](https://www.buymeacoffee.com/alexkretschmer)
-
 
 Full documentation
 [Documentation Fuel oil counter](https://alexkretschmer.github.io/fuel_oil_counter/)
